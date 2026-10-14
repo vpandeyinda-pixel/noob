@@ -37,8 +37,8 @@ if (!['microsoft', 'offline'].includes(authMode)) {
 
 module.exports = {
   // --- Server ---------------------------------------------------------
-  host: text('SERVER_HOST', 'classinpurge.minefort.com'),
-  port: number('SERVER_PORT', 19132, { min: 1, max: 65535 }),
+  host: text('SERVER_HOST', 'serverinpurge.asrv.qzz.io'),
+  port: number('SERVER_PORT', 20465, { min: 1, max: 65535 }),
 
   // --- Login ----------------------------------------------------------
   // "microsoft": real Xbox login (needed for Geyser / Minefort servers).
